@@ -1,0 +1,34 @@
+plugins {
+    id 'application'
+    id 'war'
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:31.1-jre'
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+    testImplementation platform('org.junit:junit-bom:5.9.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.thymeleaf:thymeleaf:3.1.1.RELEASE'
+
+
+}
+
+testing {
+    suites {
+        test {
+            useJUnitJupiter('5.9.1')
+        }
+    }
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'goit-javadev-hw8.App'
+}
