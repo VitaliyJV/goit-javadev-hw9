@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af45a29-d0ef-46cf-b8dc-dda8477691c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/src/main/java/org/example/TimeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/src/main/java/org/example/TimezoneValidateFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/src/main/resources/time.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thymeleaf/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thymeleaf/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Thymeleaf/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thymeleaf/build/classes/java/main/org/example/TimeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Thymeleaf/build/classes/java/main/org/example/TimeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thymeleaf/build/libs/Thymeleaf.war" beforeDir="false" afterPath="$PROJECT_DIR$/Thymeleaf/build/libs/Thymeleaf.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thymeleaf/build/resources/main/time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thymeleaf/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Thymeleaf/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thymeleaf/src/main/java/org/example/TimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thymeleaf/src/main/java/org/example/TimeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thymeleaf/src/main/resources/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/Thymeleaf/src/main/resources/templates/time.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +91,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitaliy\goit-javadev-hw9\Thymeleaf\src\main\resources\templates" />
       <recent name="C:\Users\Vitaliy\goit-javadev-hw9\Thymeleaf\src\main\webapp\WEB-INF" />
     </key>
   </component>

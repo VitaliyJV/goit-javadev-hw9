@@ -43,7 +43,7 @@ public class TimeServlet extends HttpServlet {
     }
 
     private static String getDateTimeFromUserQuery(HttpServletRequest req, HttpServletResponse resp) {
-        String zoneId = req.getParameter("zoneId");
+        String zoneId = req.getParameter("timezone");
         if (zoneId == null) {
             zoneId = getCookies(req);
         } else {
@@ -75,6 +75,8 @@ public class TimeServlet extends HttpServlet {
 /*
 http://localhost:8080
 http://localhost:8080/Thymeleaf/time
+http://localhost:8080/Thymeleaf/time?timezone=UTC+2
+
  */
 
 
